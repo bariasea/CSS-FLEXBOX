@@ -1,0 +1,77 @@
+/* Header/logo Title  */
+#inicio {
+    padding: 10px;
+    text-align: center;
+    background: #0501f9;
+    color: white;
+}
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+.side {
+    flex: -20%;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+}
+
+
+  /* Main column */
+.main_cen {
+    flex: 45%;
+    background-color: white;
+    padding: 20px;
+}
+.derech {
+    
+
+    
+
+    background-color: #F00; /* Ejemplo: color rojo */
+
+
+    border: 2px solid #000; 
+    flex: 3%;
+    padding: 20px;
+    background-color: #f99202;
+    width: 15%;
+    margin-left: auto; /* Empuja el elemento hacia la derecha */
+  }
+  
+
+
+
+
+  .footer {
+    width: 85%;
+    padding: 20px;
+    text-align: center;
+    background: #0ff902;
+    margin-left: auto; /* Empuja el pie de página hacia la derecha */
+  }
+
+
+  .nav-menu li {
+    display: inline-block;
+    padding: 10px 15px; /* Ajusta el relleno */
+    background-color: #0008ff; /* Color de fondo */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    cursor: pointer; /* Cambia el cursor a mano al pasar el mouse */
+  }
+
+  .nav-menu li a {
+    color: white; /* Color de letra blanco */
+  }
+  
+  
+  .nav-menu li:hover { /* Estilo al pasar el mouse */
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+  }
